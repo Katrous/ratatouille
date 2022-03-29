@@ -2,6 +2,7 @@ import logo from './logo.svg';
 import './App.css';
 import { Outlet, Link } from "react-router-dom";
 import Header from './components/Header'
+import Home from './components/Home'
 function App() {
 
   async function getData(){
@@ -12,9 +13,7 @@ function App() {
   return (
     <div className="App">
      <Header />
-     <div>
-       {getData().then(data => console.log(data))}
-     </div>
+     <Home />
       <Outlet/>
     </div>
   );
