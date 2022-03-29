@@ -4,8 +4,20 @@
   "description": "resturant mern",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "node backend/server"
   },
   "author": "laura richards",
-  "license": "ISC"
+  "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Katrous/ratatouille.git"
+  },
+  "bugs": {
+    "url": "https://github.com/Katrous/ratatouille/issues"
+  },
+  "homepage": "https://github.com/Katrous/ratatouille#readme",
+  "dependencies": {
+    "axios": "^0.26.1",
+    "express": "^4.17.3"
+  }
 }
